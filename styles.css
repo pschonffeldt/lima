@@ -18,10 +18,10 @@ html, body {
 
 #navbar {
   position: fixed;
-  min-width: 290px;
+  min-width: 240px;
   top: 0px;
   left: 0px;
-  width: 300px;
+  width: 200px;
   height: 100%;
   border-right: solid;
   border-color: #4d4e53;
@@ -30,7 +30,7 @@ html, body {
 
 #main-doc {
   position: absolute;
-  margin-left: 310px;
+  margin-left: 240px;
   padding: 20px;
   margin-bottom: 110px;
   border-radius: 5px;
@@ -53,7 +53,6 @@ html, body {
   padding-left: 15px;
   text-decoration: underline;
   text-decoration-thickness: 3px;
-
 }
 
 #navbar ul {
@@ -86,7 +85,7 @@ a:hover {
 }
 
 .map {
-  background-color: red;
+  background-color: rgb(81, 81, 81);
   width: 800px;
   height: 600px;
 }
