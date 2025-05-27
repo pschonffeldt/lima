@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head start -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Becoming a front end developer" />
+    <title>Becoming a front end developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Head end -->
+
+<!-- Body start -->
+<body>
+
+    <!-- Navigation bar start -->
+    <nav id="navbar">
+        <header class="nav-header">Table of contents</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction_to_HTML_and_CSS">Introduction to HTML and CSS</a></li>
+            <li><a class="nav-link" href="#HTML_Elements_and_Structure">HTML Elements and Structure</a></li>
+            <li><a class="nav-link" href="#CSS_Basics_and_Styling">CSS Basics and Styling</a></li>
+            <li><a class="nav-link" href="#Flexbox_Layout">Flexbox Layout</a></li>
+            <li><a class="nav-link" href="#CSS_Pseudo-selectors">CSS Pseudo-selectors</a></li>
+            <li><a class="nav-link" href="#Responsive_Design_with_Media_Queries">Responsive Design with Media Queries</a></li>
+            <li><a class="nav-link" href="#Semantic_HTML_for_Accessibility">Semantic HTML for Accessibility</a></li>
+        </ul>
+    </nav>
+    <!-- Navigation bar end -->
+
+    <!-- Main start -->
+    <main id="main-doc">
+
+        <!-- Section one start -->
+        <section class="main-section" id="Introduction_to_HTML_and_CSS">
+            <header class="main-section-header" id="section-header-one">Introduction to HTML and CSS</header>
+            <p>HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are foundational technologies for creating web pages. HTML structures the content, while CSS styles it. </p>
+            <p>HTML uses elements like DIV HEADER, and P to define parts of the page, while CSS is used to modify their appearance, including colors, fonts, and layout. Together, these technologies enable you to design visually appealing and well-structured web pages.</p>
+        </section>
+        <!-- Section one end -->
+
+        <!-- Section two start -->
+        <section class="main-section" id="HTML_Elements_and_Structure">
+            <header class="main-section-header" id="section-header-two">HTML Elements and Structure</header>
+            <p>HTML is built with various elements, each serving a specific purpose. Key elements include:</p>
+            <ul>
+                <li>header: Represents the header of a document or section, often containing navigation links.</li>
+                <li>section: Defines a thematic grouping of content, helping organize the document.</li>
+                <li>ul: Defines an unordered list, commonly used for bullet point lists.</li>
+                <li>a: The anchor tag, used to create hyperlinks, enabling users to navigate between pages.</li>
+                <li>List 5</li>
+            </ul>
+            <p>Properly structuring your HTML is essential for readability, maintainability, and accessibility.</p>
+            <code></code>
+        </section>
+        <!-- Section two end -->
+
+        <!-- Section three start -->
+        <section class="main-section" id="CSS_Basics_and_Styling">
+            <header class="main-section-header" id="section-header-three">CSS Basics and Styling</header>
+            <p>CSS enhances the visual presentation of your HTML. Two common selectors to target elements are classes (using .) and IDs (using #). Classes are used for reusable styles, while IDs are used for unique elements.</p>
+            <ul>
+                <li>color: Changes the text color.</li>
+                <li>background-color: Changes the background color.</li>
+                <li>font-weight: Makes text bold.</li>
+                <li>margin and padding: Control spacing around or inside elements.</li>
+            </ul>
+            <p>CSS can transform a basic HTML page into a well-designed, visually appealing experience.</p>
+        </section>
+        <!-- Section three end -->
+
+        <!-- Section four start -->
+        <section class="main-section" id="Flexbox_Layout">
+            <header class="main-section-header" id="section-header-four">Flexbox Layout</header>
+            <p>Flexbox is a powerful layout tool in CSS that helps distribute space and align items within a container. It makes it easy to create responsive designs that work well across different devices and screen sizes.</p>
+            <ul>
+                <li>display: flex;: Turns an element into a flex container.</li>
+                <li>justify-content: Aligns items along the main axis (e.g., flex-start, center, space-between).</li>
+                <li>align-items: Aligns items along the cross axis, providing vertical alignment control.</li>
+            </ul>
+            <p>With Flexbox, creating sophisticated layouts without relying on floats or complex positioning becomes much simpler.</p>
+            <code></code>
+        </section>
+        <!-- Section four end -->
+
+        <!-- Section five start -->
+        <section class="main-section" id="CSS_Pseudo-selectors">
+            <header class="main-section-header" id="section-header-five">CSS Pseudo-selectors</header>
+            <p>Pseudo-selectors in CSS are used to style elements based on their state or position. These allow for more dynamic and interactive styling. Common pseudo-selectors include:</p>
+            <ul>
+                <li>:hover: Applies styles when the user hovers over an element, such as changing a button's color.</li>
+                <li>:nth-of-type(): Targets elements based on their order, allowing for selective styling within lists or other groupings.</li>
+            </ul>
+            <p>Pseudo-selectors are powerful tools that enable you to create interactive and engaging user experiences.</p>
+            <code></code>
+        </section>
+        <!-- Section five end -->
+
+        <!-- Section six start -->
+        <section class="main-section" id="Responsive_Design_with_Media_Queries">
+            <header class="main-section-header" id="section-header-six">Responsive Design with Media Queries</header>
+            <p>Media queries are a key feature in CSS that help make web pages responsive, adapting to different screen sizes. By using media queries, you can specify different styles for various devices:</p>
+            <code class="code-example">@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}</code>
+            <p>This rule changes the font size for screens narrower than 768 pixels. Responsive design ensures that users have a good experience, whether they're using a phone, tablet, or desktop.</p>
+            <code></code>
+        </section>
+        <!-- Section six end -->
+
+        <!-- Section seven start -->
+        <section class="main-section" id="Semantic_HTML_for_Accessibility">
+            <header class="main-section-header" id="section-header-seven">Semantic HTML for Accessibility</header>
+            <p>Semantic HTML uses elements that clearly describe their meaning, both for developers and assistive technologies like screen readers. Examples include:</p>
+            <ul>
+                <li>article, aside, footer: These tags add meaning to the content, improving the page’s accessibility.</li>
+                <li>aria-hidden: A useful attribute for hiding elements from screen readers when needed.</li>
+            </ul>
+            <p>Using semantic HTML improves the user experience and ensures your site is accessible to a broader audience, including those using assistive technologies.</p>
+        </section>
+        <!-- Section seven end -->
+
+    </main>
+    <!-- Main end -->
+
+</body>
+<!-- Body end -->
+
+</html>
