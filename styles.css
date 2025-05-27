@@ -85,6 +85,12 @@ a:hover {
   background-color: rgba(100,100,100,0.2);
 }
 
+.map {
+  background-color: red;
+  width: 800px;
+  height: 600px;
+}
+
 @media only screen and (max-width: 400px) {
   #main-doc {
     margin-left: -10px;
