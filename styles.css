@@ -36,10 +36,21 @@ html, body {
   border-radius: 5px;
 }
 
+.main-section {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .main-section-header {
   font-size: 25px;
   font-weight: bold;
-  border-bottom: 1px solid;
+  /* border-bottom: 1px solid; */
   border-color: #4d4e53;
   border-width: 1px;
 }
