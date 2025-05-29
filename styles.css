@@ -3,15 +3,9 @@ html {
 }
 
 html, body {
-  min-width: 290px;
-
-  /* color: #1b1b32;
-  background-color: #ffffff; */
-  
-  
+  min-width: 290px;  
   color: #1b1b32;
   background-color: #ffffff;
-  
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.5;
 }
@@ -98,8 +92,15 @@ a:hover {
   height: 600px;
 }
 
-@media only screen and (max-width: 400px) {
-  #main-doc {
-    margin-left: -10px;
+@media only screen and (max-width: 740px) {
+  #navbar {
+    display: none;
+    margin-left: 35px;
   }
+
+  #main-doc {
+  margin-left: 0;
+  padding: 5px;
+  position: relative;
+}
 }
