@@ -15,12 +15,12 @@
     <!-- Navigation bar start -->
     <nav id="navbar">
       <header class="nav-header">Tabla de contenidos</header>
-      <ul>
+      <ul class="nav__list">
         <li>
-          <a class="nav-link" href="#Introduccion">Introducción a Lima</a>
+          <a class="nav-link" href="#Introduccion">Introducción</a>
         </li>
         <li>
-          <a class="nav-link" href="#Ubicacion">Ubicaciones y transporte</a>
+          <a class="nav-link" href="#Ubicacion">Transporte</a>
         </li>
         <li><a class="nav-link" href="#Comida">Comida</a></li>
         <li><a class="nav-link" href="#Copete">Copete</a></li>
@@ -161,13 +161,33 @@
           <li>Barra Botánica (Miraflores) brunch y desayunos</li>
           <li>Helado de Lima (la mejor cadena peruana de helados)</li>
         </ul>
-        <p>
-          <a
-            href="https://www.google.com/maps/d/edit?hl=es&mid=14jhDKUBm-_vNZ0z0Mw97JKX2C7n0_MQ&ll=-12.1008336775447%2C-77.04423330000002&z=13"
-            >Revisa el listado</a
+        <style>
+          .map-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+          }
+          .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+          }
+        </style>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=14jhDKUBm-_vNZ0z0Mw97JKX2C7n0_MQ&ehbc=2E312F"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
           >
-          completo con mas de 50 entradas
-        </p>
+          </iframe>
+        </div>
       </section>
       <!-- Section three end -->
 
